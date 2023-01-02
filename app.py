@@ -33,7 +33,7 @@ def predict_class(image, model):
 
 
 model = load_model()
-st.title('Classification between Germinoma and Non-germinoma using Deep learning')
+st.title('Image Classification of Germinoma and Non-germinoma at Pineal Region')
 
 file = st.file_uploader("Upload an image of an MRI", type=["jpg", "png"])
 
